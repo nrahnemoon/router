@@ -8,4 +8,5 @@
 !/etc/config/fstab
 !/root/
 !/root/.bashrc
+!/root/.bash_profile_sample
 
