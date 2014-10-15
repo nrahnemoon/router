@@ -6,3 +6,6 @@
 !/etc/
 !/etc/config/
 !/etc/config/fstab
+!/root/
+!/root/.bashrc
+
