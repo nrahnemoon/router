@@ -1,0 +1,8 @@
+# Gitignore File
+# Ignore all files
+# Except files in /etc/
+*
+!.gitignore
+!/etc/
+!/etc/config/
+!/etc/config/fstab
