@@ -6,6 +6,8 @@
 !/etc/
 !/etc/config/
 !/etc/config/fstab
+!/etc/sigmobi/
+!/etc/sigmobi/setup_network.sh
 !/root/
 !/root/.bashrc
 !/root/.bash_profile_sample
