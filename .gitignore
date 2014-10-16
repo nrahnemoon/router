@@ -7,3 +7,6 @@
 !/etc/config/
 !/etc/config/fstab
 !/etc/sample_profile
+!/etc/sigmobi/
+!/etc/sigmobi/setup_network.sh
+
