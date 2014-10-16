@@ -6,7 +6,7 @@ export RT_NAME="rt7"
 export PATH=/usr/bin:/usr/sbin:/bin:/sbin
 export HOME=$(grep -e "^${USER:-root}:" /etc/passwd | cut -d ":" -f 6)
 export HOME=${HOME:-/root}
-export PS1='PS1="[$RT_NAME]:\w\$ '
+export PS1='[$RT_NAME]:\w\$ '
 
 [ -x /bin/more ] || alias more=less
 [ -x /usr/bin/vim ] && alias vi=vim || alias vim=vi
