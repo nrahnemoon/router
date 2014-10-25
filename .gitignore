@@ -6,7 +6,13 @@
 !/etc/
 !/etc/config/
 !/etc/config/fstab
+!/etc/config/dhcp_backup
+!/etc/config/firewall_backup
+!/etc/config/network_backup
+!/etc/config/wireless_backup
 !/etc/sample_profile
 !/etc/sigmobi/
-!/etc/sigmobi/setup_network.sh
+!/etc/sigmobi/setup.sh
+!/etc/sigmobi/logger.sh
+!/etc/sigmobi/log/
 

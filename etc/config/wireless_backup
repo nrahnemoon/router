@@ -1,0 +1,25 @@
+config wifi-device  radio0
+	option type     mac80211
+	option channel  11
+	option hwmode	11g
+	option path	'platform/ar933x_wmac'
+	option htmode	HT20
+	option txpower	30
+
+config wifi-iface
+	option device   radio0
+	option network  wan
+	option mode     sta
+	option ssid     2WIRE230 
+	option encryption psk-mixed
+	option key	w1r3l3ss
+
+config wifi-iface             
+        option device   radio0
+        option network  lan
+        option mode     ap
+        option ssid     rt7
+        option encryption psk-mixed
+        option key      t3st1234
+	option isolate	1
+
